@@ -1,0 +1,26 @@
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\bin\Debug\GAHDesktop.exe.config
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\bin\Debug\GAHDesktop.exe
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\bin\Debug\GAHDesktop.pdb
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\bin\Debug\MySql.Data.dll
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.csprojResolveAssemblyReference.cache
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.Properties.Resources.resources
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.Form1.resources
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.csproj.GenerateResource.Cache
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.exe
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.pdb
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.UI.FormKelolaKamar.resources
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.UI.FormKelolaSeason.resources
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.UI.FormAdmin.resources
+E:\GAHDesktop\GAHDesktop\bin\Debug\GAHDesktop.exe.config
+E:\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.exe
+E:\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.pdb
+E:\GAHDesktop\GAHDesktop\bin\Debug\GAHDesktop.exe
+E:\GAHDesktop\GAHDesktop\bin\Debug\GAHDesktop.pdb
+E:\GAHDesktop\GAHDesktop\bin\Debug\MySql.Data.dll
+E:\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.csprojResolveAssemblyReference.cache
+E:\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.Properties.Resources.resources
+E:\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.Form1.resources
+E:\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.UI.FormAdmin.resources
+E:\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.UI.FormKelolaKamar.resources
+E:\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.UI.FormKelolaSeason.resources
+E:\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.csproj.GenerateResource.Cache
