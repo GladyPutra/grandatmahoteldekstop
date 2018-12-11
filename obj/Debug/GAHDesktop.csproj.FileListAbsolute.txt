@@ -1,0 +1,64 @@
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\bin\Debug\GAHDesktop.exe.config
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\bin\Debug\GAHDesktop.exe
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\bin\Debug\GAHDesktop.pdb
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\bin\Debug\MySql.Data.dll
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.Properties.Resources.resources
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.Form1.resources
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.csproj.GenerateResource.Cache
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.exe
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.pdb
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.UI.FormKelolaKamar.resources
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.UI.FormKelolaSeason.resources
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.UI.FormAdmin.resources
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.UI.FormKelolaAkun.resources
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.UI.FormLupaPassword.resources
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.csprojResolveAssemblyReference.cache
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.UI.FormFrontOffice.resources
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.UI.FormKonfirmasiPembayaran.resources
+E:\Kuliah\Semester 6\P3LP\New folder\GAHDesktop\GAHDesktop\obj\Debug\GAHDesktop.UI.FormSalesMarketing.resources
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\bin\Debug\GAHDesktop.exe.config
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.exe
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.pdb
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\bin\Debug\GAHDesktop.exe
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\bin\Debug\GAHDesktop.pdb
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\bin\Debug\MySql.Data.dll
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.Properties.Resources.resources
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormFrontOffice.resources
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormKelolaAkun.resources
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormKonfirmasiPembayaran.resources
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.Form1.resources
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormAdmin.resources
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormKelolaKamar.resources
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormKelolaSeason.resources
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormLupaPassword.resources
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormSalesMarketing.resources
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.csproj.GenerateResource.Cache
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormLaporanPendapatanPerbulan.resources
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormLaporanPendapatanTahunan.resources
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormLaporanCustomerBaru.resources
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormLaporanJumlahTamu.resources
+E:\Kuliah\Semester 6\P3LP\Pertemuan Setelah uts\P3l_desktop\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormLaporanPelangganReservasiTerbanyak.resources
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\bin\Debug\GAHDesktop.exe.config
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.exe
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.pdb
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\bin\Debug\GAHDesktop.exe
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\bin\Debug\GAHDesktop.pdb
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\bin\Debug\MySql.Data.dll
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.csprojResolveAssemblyReference.cache
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.Properties.Resources.resources
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormFrontOffice.resources
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormKelolaAkun.resources
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormKonfirmasiPembayaran.resources
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormLaporanCustomerBaru.resources
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormLaporanJumlahTamu.resources
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormLaporanPelangganReservasiTerbanyak.resources
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormLaporanPendapatanPerbulan.resources
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormLaporanPendapatanTahunan.resources
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.Form1.resources
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormAdmin.resources
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormKelolaKamar.resources
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormKelolaSeason.resources
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormLupaPassword.resources
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormSalesMarketing.resources
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.csproj.GenerateResource.Cache
+E:\Documents\Sekolah\Universitas Atmajaya\Semester 6\P3L\GitKraken\Master\desktop_p3l\desktop_p3l\GAHDesktop\obj\Debug\GAHDesktop.UI.FormOwnerGM.resources
