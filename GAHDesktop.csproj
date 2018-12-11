@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{69571BAD-3430-4C8F-ACDF-65EDFDEE198B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GAHDesktop</RootNamespace>
+    <AssemblyName>GAHDesktop</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Control\kelolaAkunControl.cs" />
+    <Compile Include="Control\KelolaReservasiControl.cs" />
+    <Compile Include="Control\KelolaSeasonControl.cs" />
+    <Compile Include="Control\KelolaTarifKamarControl.cs" />
+    <Compile Include="Control\laporanControl.cs" />
+    <Compile Include="Control\LoginControl.cs" />
+    <Compile Include="DAO\DBConnect.cs" />
+    <Compile Include="DAO\KelolaAkunDAO.cs" />
+    <Compile Include="DAO\KelolaReservasiDAO.cs" />
+    <Compile Include="DAO\KelolaSeasonDAO.cs" />
+    <Compile Include="DAO\KelolaTarifKamarDAO.cs" />
+    <Compile Include="DAO\LaporanDAO.cs" />
+    <Compile Include="DAO\LoginDAO.cs" />
+    <Compile Include="Models\KonfrimasiPembayaran.cs" />
+    <Compile Include="Models\Kamar.cs" />
+    <Compile Include="Models\LoginModels.cs" />
+    <Compile Include="Models\Season.cs" />
+    <Compile Include="Models\Tarif_Kamar.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="ShowException.cs" />
+    <Compile Include="UI\FormFrontOffice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormFrontOffice.Designer.cs">
+      <DependentUpon>FormFrontOffice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FormKelolaAkun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormKelolaAkun.Designer.cs">
+      <DependentUpon>FormKelolaAkun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FormKonfirmasiPembayaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormKonfirmasiPembayaran.Designer.cs">
+      <DependentUpon>FormKonfirmasiPembayaran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FormLaporanCustomerBaru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormLaporanCustomerBaru.Designer.cs">
+      <DependentUpon>FormLaporanCustomerBaru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FormLaporanJumlahTamu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormLaporanJumlahTamu.Designer.cs">
+      <DependentUpon>FormLaporanJumlahTamu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FormLaporanPelangganReservasiTerbanyak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormLaporanPelangganReservasiTerbanyak.Designer.cs">
+      <DependentUpon>FormLaporanPelangganReservasiTerbanyak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FormLaporanPendapatanPerbulan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormLaporanPendapatanPerbulan.Designer.cs">
+      <DependentUpon>FormLaporanPendapatanPerbulan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FormLaporanPendapatanTahunan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormLaporanPendapatanTahunan.Designer.cs">
+      <DependentUpon>FormLaporanPendapatanTahunan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\FormAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormAdmin.Designer.cs">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FormKelolaKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormKelolaKamar.Designer.cs">
+      <DependentUpon>FormKelolaKamar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FormKelolaSeason.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormKelolaSeason.Designer.cs">
+      <DependentUpon>FormKelolaSeason.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FormLupaPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormLupaPassword.Designer.cs">
+      <DependentUpon>FormLupaPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FormOwnerGM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormOwnerGM.Designer.cs">
+      <DependentUpon>FormOwnerGM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FormSalesMarketing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormSalesMarketing.Designer.cs">
+      <DependentUpon>FormSalesMarketing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\LaporanJumlahCustomerBaru.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanJumlahCustomerBaru.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\LaporanJumlahTamu.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanJumlahTamu.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\LaporanPelangganReservasiTerbanyak.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanPelangganReservasiTerbanyak.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\LaporanPendapatanPerbulan.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanPendapatanPerbulan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\LaporanPendapatanTahunan.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanPendapatanTahunan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UI\FormFrontOffice.resx">
+      <DependentUpon>FormFrontOffice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormKelolaAkun.resx">
+      <DependentUpon>FormKelolaAkun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormKonfirmasiPembayaran.resx">
+      <DependentUpon>FormKonfirmasiPembayaran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormLaporanCustomerBaru.resx">
+      <DependentUpon>FormLaporanCustomerBaru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormLaporanJumlahTamu.resx">
+      <DependentUpon>FormLaporanJumlahTamu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormLaporanPelangganReservasiTerbanyak.resx">
+      <DependentUpon>FormLaporanPelangganReservasiTerbanyak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormLaporanPendapatanPerbulan.resx">
+      <DependentUpon>FormLaporanPendapatanPerbulan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormLaporanPendapatanTahunan.resx">
+      <DependentUpon>FormLaporanPendapatanTahunan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormAdmin.resx">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormKelolaKamar.resx">
+      <DependentUpon>FormKelolaKamar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormKelolaSeason.resx">
+      <DependentUpon>FormKelolaSeason.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormLupaPassword.resx">
+      <DependentUpon>FormLupaPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormOwnerGM.resx">
+      <DependentUpon>FormOwnerGM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormSalesMarketing.resx">
+      <DependentUpon>FormSalesMarketing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LaporanJumlahCustomerBaru.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanJumlahCustomerBaru.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LaporanJumlahTamu.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanJumlahTamu.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LaporanPelangganReservasiTerbanyak.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanPelangganReservasiTerbanyak.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LaporanPendapatanPerbulan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanPendapatanPerbulan.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LaporanPendapatanTahunan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanPendapatanTahunan.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19-1User-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Mockup 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Mockup 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Mockup 21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
